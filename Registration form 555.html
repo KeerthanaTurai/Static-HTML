@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AU Registration</title>
+</head>
+<body bgcolor="#F3CABE">
+<p align="center"><b><u><font size="8" color="red">ANURAG UNIVERSITY</font></u></b></p>
+<p><b><u><font size="6" color="blue">Registration Form</font></u></b></p>
+<p><font size="5" color="green"><b><u>Student Information</u></b></font></p>
+<form method="post" action="">
+  <table cellpadding="4" cellspacing="0">
+  <tr>
+    <td><label for="fname"><b><font size="4">Name:</font></b></label></td>
+    <td><input type="text" name="fname"></td>
+  <tr>
+  <tr>
+    <td><label for="faname"><b><font size="4">Father's name:</font></b></label></td>
+    <td><input type="text" name="fname"></td>
+  </tr>
+  <tr align="center">
+    <td align="left"><b><font size="4">Date Of Birth:</font></b></td>
+    <td><label for="date"><font size="4">Date</label>&nbsp;<input type="text" name="date" maxlength="2" size="2"></td>
+    <td><label for="month"><font size="4">Month&nbsp;</label><input type="text" name="month" maxlength="2" size="2"></td>
+    <td><label for="year"><font size="4">Year&nbsp;</label><input type="text" name="year" maxlength="4" size="4"></td>
+  </tr>
+  <tr align="center">
+    <td align="left"><label for="gender"><b><font size="4">Gender:&nbsp;&nbsp;</font></b></label></td>
+    <td><input type="radio" name="gender" value="m">Male</td>
+    <td><input type="radio" name="gender" value="f">Female</td>
+    <td><input type="radio" name="gender" value="p">Prefer not to say</td>
+  </tr>
+  <tr>
+    <td><label for="aadhar"><b><font size="4">Aadhar Number:</font></b></label></td>
+    <td><input type="text" name="aadhar" maxlength="12"></td>
+  </tr>
+  <tr>
+    <td><label for="caste"><b><font size="4">Caste:</font></b></label></td>
+    <td><select name="caste">
+      <option value="OC">OC</option>
+      <option value="BC">BC</option>
+      <option value="SC">SC</option>
+      <option value="ST">ST</option>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="branch"><b><font size="4">Branch:</font></b></label></td>
+      <td align="right"><input type="radio" name="branch" value="1">CSE&nbsp;&nbsp;<input type="radio" name="branch" value="2">ECE</td>
+      <td><input type="radio" name="branch" value="3">EEE&nbsp;&nbsp;<input type="radio" name="branch" value="4">MECH</td>
+      <td><input type="radio" name="branch" value="5">Civil&nbsp;&nbsp;<input type="radio" name="branch" value="6">IT</td>
+    </tr>
+  </table>
+  <p><b><font size="5" color="green"><u>Documents to be submitted</font></b></u></p>
+  <table cellpadding="4" cellspacing="0">
+    <tr>
+      <td><label for="aadharcard"><b><font size="4">Aadhar Card:</font></b></label></td>
+      <td><input type="file" id="aadharcard"></td>
+    </tr>
+    <tr>
+      <td><label for="sscmemo"><b><font size="4">1Oth Memo:</font></b></label></td>
+      <td><input type="file" id="sscmemo"></td>
+    </tr>
+    <tr>
+      <td><label for="intermemo"><b><font size="4">12th Memo:</font></b></label></td>
+      <td><input type="file" id="intermemo"></td>
+    </tr>
+  </table>
+  <p><b><font size="5" color="green"><u>Contact Details:</font></b></u></p>
+  <table cellpadding="4" cellspacing="0">
+  <tr>
+    <td><label for="contno"><b><font size="4">Contact Number:</font></b></label></td>
+    <td><input type="text" name="contno" maxlength="10"></td>
+  </tr>
+  <tr>
+    <td valign="top"><label for="address"><b><font size="4">Address: </font></b></label></td>
+    <td><textarea name="address" cols="32" rows="4"></textarea></td>
+  </tr>
+  <tr>
+    <td><label for="email"><b><font size="4">Email: </font></b></label></td>
+    <td><input type="text" name="email"></td>
+  </tr>
+  </table>
+  <br>
+  <input type="checkbox" name="agree" value="agreed">
+  <label for="agree"><b><font size="4">I confirm that I would obey the dress code of the University</font></b></label><br>
+  <p><font size="4">For more details visit <a href="https://anurag.edu.in/">official website</a></font></p>
+  <table align="center" cellpadding="4" cellspacing="0">
+    <tr>
+      <td><input type="submit" name="Submit" value="Submit"></td>
+      <td><input type="submit" name="Reset" value="Reset"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
