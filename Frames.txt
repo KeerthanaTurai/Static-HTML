@@ -1,0 +1,182 @@
+<!--Frame.html -->
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>FRAMES</TITLE>
+</HEAD>
+<frameset rows="100,*">
+  <frame src="top.html"/>
+  <frameset cols="20%,60%,20%">
+    <frame name="menu" src="men.html"/>
+    <frame name="description" src="about.htm"/>
+    <frame name="activities" src="extra.html"/>
+  </frameset>
+</frameset>
+<noframes><body>This browser  doesn't support frames</body></noframes>
+</html>
+
+
+<!--   top.html     -->
+<!DOCTYPE html>
+<html>
+<body>
+  <p align="center"><b><font size="6" color="red">ANURAG GROUP OF INSTITUTIONS</font><br>
+<font size="5" color="red">Venkatapur,Ghatkesar,Hyderabad</b></font></p>
+</body>
+</html>
+
+
+<!--    men.html    -->
+<!DOCTYPE html>
+<html> <body>
+  <p>
+  <br>
+  <br>
+  </p>
+  <ul type="disc">
+    <li><a href="about.htm" target="description"><font size="5" color="blue"><b>ABOUT</b></font></a></li><p></p>
+    <li><a href="qualification.htm" target="description"><font size="5" color="blue"><b>Qualification</b></font></a></li><p></p>
+    <li><a href="certifications.htm" target="description"><font size="5" color="blue"><b>Certifications</b></font></a></li><p></p>
+    <li><a href="personaldetails.htm" target="description"><font size="5" color="blue"><b>Personal Details</b></font></a></li><p></p>
+    <li><a href="achievements.htm" target="description"><font size="5" color="blue"><b>Achievements</b></font></a></li><p></p>
+  </ul>
+</body>
+</html>
+
+<!--  about.htm    -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> ABOUT </title>
+</title>
+<body>
+<p><b><br><font size="6" color="purple">&nbsp;&nbsp;About:</font><br>
+  <br>
+<font size="5">&nbsp;&nbsp;Hello everyone!<br>
+&nbsp;&nbsp;I am Keerthana,I belong to Hyderabad.<br>
+&nbsp;&nbsp;I am currently pursuing Btech 3rd year in Computer Science & Engineering.<br>
+&nbsp;&nbsp;I am a voracious reader and an ardent fan of fiction and thriller novels.<br>
+&nbsp;&nbsp;I am a self motivated person and a hard worker.<br>
+&nbsp;&nbsp;I am well versed with team building and group activities.<br>
+&nbsp;&nbsp;I am interested in public speaking and debates.</font></b>
+</p>
+</body>
+</html>
+
+<!--   qualification.htm   -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>QUALIFICATION</title>
+</head>
+<body>
+<p><br><br><b>
+  <font size="6" color="purple">&nbsp;&nbsp;Qualification:</font><br><br>
+  <ul><font size="5"><li>Under Graduate:</li>
+  &nbsp;&nbsp;Bachelor of Technology(B.Tech), Computer Science & Engineering,
+  &nbsp;&nbsp;Anurag University 2018-2022<br><br>
+  <li>Secondary Education:</li>
+  &nbsp;&nbsp;Senior Secondary(XII),Science, Narayana Junior College 2016-2018<br><br>
+  <li>High School:</li>
+  &nbsp;&nbsp;Secondary(X),Delhi Public School 2006-2016
+</font>
+</b></p>
+</body>
+</html>
+
+<!--    certifications.htm     -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>CERTIFICATIONS </title>
+</head>
+<body>
+<p><br><br><font size="6" color="purple"><b>&nbsp;&nbsp;Certifications:</b></font><br></p>
+<ol type="1">
+<font size="5"><b>
+<li>&nbsp;&nbsp; Programming for everybody:python</li>
+<li>&nbsp;&nbsp; Python data strcutures</li>
+<li>&nbsp;&nbsp; Introduction to html5</li>
+<li>&nbsp;&nbsp; Leadership and Emotional Intelligence</li>
+<li>&nbsp;&nbsp; Positive Psychology</li>
+<li>&nbsp;&nbsp; TCS Knockdown the Lockdown</li>
+</b></font></ul>
+</body>
+</html>
+
+<!--    personaldetails.htm     -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>CERTIFICATIONS </title>
+</head>
+<body>
+<p><br><br><font size="6" color="purple"><b>&nbsp;&nbsp;Certifications:</b></font><br></p>
+<ol type="1">
+<font size="5"><b>
+<li>&nbsp;&nbsp; Programming for everybody:python</li>
+<li>&nbsp;&nbsp; Python data strcutures</li>
+<li>&nbsp;&nbsp; Introduction to html5</li>
+<li>&nbsp;&nbsp; Leadership and Emotional Intelligence</li>
+<li>&nbsp;&nbsp; Positive Psychology</li>
+<li>&nbsp;&nbsp; TCS Knockdown the Lockdown</li>
+</b></font></ul>
+</body>
+</html>
+
+<!--     acheivements.htm    -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>ACHIEVEMENTS </title>
+</head>
+<body>
+  <body>
+    <p><br><br><font size="6" color="purple"><b>&nbsp;&nbsp;Achievements:</b></font><br></p>
+<ol type="1"><font size="5"><b>
+<li>&nbsp;&nbsp; ACM coordinator </li>
+<li>&nbsp;&nbsp; Additional Secretary </li>
+<li>&nbsp;&nbsp; First Prize in Language Fair- Aagama2k19 </li>
+</font></b>
+</ul>
+</body>
+</html>
+
+
+<!--      about.htm     -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> ABOUT </title>
+</title>
+<body>
+<p><b><br><font size="6" color="purple">&nbsp;&nbsp;About:</font><br>
+  <br>
+<font size="5">&nbsp;&nbsp;Hello everyone!<br>
+&nbsp;&nbsp;I am Keerthana,I belong to Hyderabad.<br>
+&nbsp;&nbsp;I am currently pursuing Btech 3rd year in Computer Science & Engineering.<br>
+&nbsp;&nbsp;I am a voracious reader and an ardent fan of fiction and thriller novels.<br>
+&nbsp;&nbsp;I am a self motivated person and a hard worker.<br>
+&nbsp;&nbsp;I am well versed with team building and group activities.<br>
+&nbsp;&nbsp;I am interested in public speaking and debates.</font></b>
+</p>
+</body>
+</html>
+
+
+<!--     extra.htm    -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Extra Curricular Activities</title>
+</head>
+<body>
+<p><br><b>
+  <font size="6" color="Green">Extra Curricular Activities:</font><br><br>
+  <font size="5">1.I play Table Tennis, and have secured the first place in Inter School competition.<br>
+    <br>
+   2.I am currently undergoing training for classical music.</font>
+</b></p>
+</body>
+</html>
